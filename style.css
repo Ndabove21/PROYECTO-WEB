@@ -9,21 +9,28 @@ body{
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
 
+
 .btn-primary{
 justify-content: right;    
 color: #fff;
 background-color: #212529;
 border-color: #212529;
 }
+
 .bg-light{
-    padding: 50px 50px 100px 50px;
+    padding: 80px;
 background-color: white;
 }
-
-
+.btn-dark{}
+.btn-dark:hover{
+background-color: white;
+color: cornflowerblue;
+}
 
 .cotiza {
+    padding: 50px;
 background-color: #212529;
+
 }
 
 .pasion{
@@ -31,17 +38,59 @@ background-color: #212529;
     background-color: white;
     display: flex;
 }
-.col-md-7{
+.col-md-7  {
     display: flex;
 }
 
+
+
 .imgcolum {
+    display: flex;
     width: 100%;
-       transition: .1s;
 }
 footer{
     padding: 50px 10px 20px 10px;
     background-color: #212529
+}
+
+.btn-outline-green{
+    padding-bottom: 5px;
+    justify-content: space-between;
+    color: green;
+    background-color: white;
+    border-color: green;
+}
+.btn.btn-outline-green.btn-lg.px-4:hover {
+    color: white;
+    background-color: green;
+    border-color: white;
+  }
+.btn-outline-white{
+    padding-bottom: 5px;
+    justify-content: space-between;
+    color: rgb(155, 76, 76);
+    background-color: rgb(252, 252, 252);
+    border-color: rgb(155, 76, 76);
+
+}
+.btn.btn-outline-white.btn-lg.px-4:hover{
+    color: white;
+    background-color: rgb(160, 9, 9);
+    border-color: white;
+    
+}
+.btn-outline-black{
+    padding-bottom: 5px;
+    color: black;
+    background-color: rgb(252, 252, 252);
+    border-color: black;
+
+}
+.btn.btn-outline-black.btn-lg.px-4:hover{
+    color: white;
+    background-color: black;
+    border-color: white;
+    
 }
 
 
@@ -54,6 +103,7 @@ footer{
     font-family: Rubik,sans-serif;
     font-weight: 400;
     text-decoration: none!important;
+    justify-content: stretch;
 }
 .feature{
     display: inline-flex;
@@ -64,15 +114,3 @@ footer{
     width: 4rem;
     font-size: 2rem;
 }
-.col-md-5, .col-md-7 {
-    justify-content: center;
-    padding: 30px;
-    flex: auto;
-}
-.footletras{
-color: white;
-}
-.bi-whatsapp{
-    color: white;
-
-    }

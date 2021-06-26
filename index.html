@@ -20,15 +20,15 @@
 
  </head>
 
-<body>    
+<body id="top">    
     <!-- Responsive navbar-->   
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container px-5">
                 <img src="Imagenes/25.png" alt=""  >
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link " aria-current="page" href="https://ndabove21.github.io/PROYECTO-WEB/">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link " aria-current="page" href="#top">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link" href="#cot">Cotizar</a></li>
                 <li class="nav-item"><a class="nav-link" href="#nos">Nosotros</a></li>
                 <li class="nav-item-white"><a class="nav-link" href="#pasion">Reunión Virtual</a></li>
@@ -111,7 +111,7 @@
         <!-- Pricing section-->
 
         <section class="bg-light" id="nos">
-          <div class="container px-5 my-5">
+          <div class= "container px-5 my-5">
               <div class="text-center mb-5">
                   <h2 class="fw-bolder">Sobre nosotros</h2>
                   <p class="lead mb-0">Principalmente los clientes nos elijen por</p>
@@ -144,17 +144,22 @@
    	<!-- Texto + Bloques de imagenes -->
 		<section class="pasion" id="pasion">
 			<div class="container">
-				<div class="row">
+				<div class="row align-items-center">
 					<div class="col-md-5 pr-5">
 						<h1>Reserva una cita virtual</h1>
 						<hr>
-						<p>Brindamos al mercado corporativo e individual servicios de excelencia en seguros mediante coberturas a nivel nacional e internacional</p>
-            <p>A continuación haz click para reservar tu cita con un productor de seguros</p>
-            <p><a class="btn btn-lg btn-dark" href="https://docs.google.com/forms/d/e/1FAIpQLSfqNBIVh7kwDErhzAtdpkW8zlpXtuv7SflEqcW4DpXDyPETsA/viewform?usp=sf_link" role="button">Click aquí</a></p>
+						<p>Brindamos al mercado corporativo e individual servicios de excelencia en seguros mediante coberturas a nivel nacional e internacional. </p>
+            <p> A continuación haz click para reservar tu cita con un productor de seguros. </p>
+            <p><a class="btn btn-lg btn-dark justify-content-right" href="https://docs.google.com/forms/d/e/1FAIpQLSfqNBIVh7kwDErhzAtdpkW8zlpXtuv7SflEqcW4DpXDyPETsA/viewform?usp=sf_link" role="button">Click aquí</a></p>
           </div>
+
 					<div class="col-md-7">
 						<img class="imgcolum" src="Imagenes/23.jpg" >
 					</div>
+
+  </div> 
+ </div>
+          
 		</section>
 
     </main>
@@ -162,21 +167,15 @@
   <!-- <footer> -->
     <footer  id="contacto">
                   <div class="container">
-                          <div class="row">
+                          <div class="row align-items-center justify-content-center">
                                         <div class="col-md-4">
                                                <img src="Imagenes/26.png"><br><br>
                                         </div>
-                    <div class="col-md-7">
-                                    <div class="row">
+              
                                                   <div class="col-md-5">
-                                                   
-                                                    <p class=><a href="https://api.whatsapp.com/send?phone=5493476611814&text=" target="_blank" class="footletras" ><img class="icon"src="Imagenes/icon1.png" > WhatsApp <br>
-                                                    <a class="footletras" href="tel:  541153532600" target="_blank"><img src="Imagenes/icon2.png" class="icon">  Telefono</a></p>
-                                                  </div>
-                                                  
-                                                  <div class="col-md-7">
-                                                    <p ><a class="footletras" href="mailto:  dabove.seguros@gmail.com" target="_blank"><img class="bi-whatsapp"src="Imagenes/envelope.svg" >  dabove.seguros@gmail.com</a><br>
-                                                    <a class="footletras" href="https://goo.gl/maps/vRDNN17wx9PxN92i8" target="_blank"><img src="Imagenes/geo-alt.svg" class="icon">  Gral. López 2761, S2200 San Lorenzo, Santa Fe</a></p>
+                                                    <a class="btn btn-outline-green btn-lg px-4" href="https://api.whatsapp.com/send?phone=5493476611814&text=">WhatsApp</a>
+                                                    <a class="btn btn-outline-white btn-lg px-4" href="mailto:dabove.seguros@gmail.com">Correo</a>
+                                                  <a class="btn btn-outline-black btn-lg px-4" href="https://goo.gl/maps/vRDNN17wx9PxN92i8">Dirección</a>
                                                   </div>
                                       </div>
                         </div>
