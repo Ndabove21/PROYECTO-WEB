@@ -22,9 +22,9 @@ background-color: white;
 
 
 .nav-item-white{   
-color: #fff;
-background-color: #212529;
-border-color: white;
+    border-color: black;
+background-color: #393d41;
+border-radius: 45%;
 }
 .cotiza {
 background-color: #212529;
@@ -76,7 +76,7 @@ footer{
 .footletras{
 color: white;
 }
-.icon{
+.bi-whatsapp{
     color: white;
 
     }
