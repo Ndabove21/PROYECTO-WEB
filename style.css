@@ -52,6 +52,9 @@ background-color: #212529;
     padding-left: calc(var(--bs-gutter-x)/ 2);
     margin-top: var(--bs-gutter-y);
       }
+    .btn-group-lg>.btn, .btn-lg{
+        display: block;
+    }
     .fixed-top {
         position: initial;}
 }
