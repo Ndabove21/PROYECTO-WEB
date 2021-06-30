@@ -41,7 +41,20 @@ background-color: #212529;
 .col-md-7  {
     display: flex;
 }
-
+@media(max-width: 768px) {
+    .col-md-5{
+        gap: 1rem!important;
+        display: grid!important;
+        flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin-top: var(--bs-gutter-y);
+      }
+    .fixed-top {
+        position: initial;}
+}
 
 
 .imgcolum {
