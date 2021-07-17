@@ -57,6 +57,10 @@ background-color: #212529;
     }
     .fixed-top {
         position: initial;}
+
+        .col-md-4{
+            text-align: center;
+        }
 }
 
 
